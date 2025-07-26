@@ -1,64 +1,73 @@
 fileFormatVersion: 2
-guid: 5e21a3461ab8147a4941e2bc79a709c3
+guid: 44794ef1a221d4c83929aa297140048e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -241069399646448230
-    second: SDV_Dog_0
+      213: -6262246651834699307
+    second: RWR_Player_0
   - first:
-      213: 6713519507285893542
-    second: SDV_Dog_1
+      213: 9006551552409584390
+    second: RWR_Player_1
   - first:
-      213: -5611521136450622722
-    second: SDV_Dog_2
+      213: -4613680371436233857
+    second: RWR_Player_2
   - first:
-      213: -2123819996796485154
-    second: SDV_Dog_3
+      213: 4256628837077265651
+    second: RWR_Player_3
   - first:
-      213: -6468729970675230598
-    second: SDV_Dog_4
+      213: -5746982333229619313
+    second: RWR_Player_4
   - first:
-      213: 2652334624359374745
-    second: SDV_Dog_5
+      213: -7137147539832608697
+    second: RWR_Player_5
   - first:
-      213: -1694984730454403483
-    second: SDV_Dog_6
+      213: 9005144898960514413
+    second: RWR_Player_6
   - first:
-      213: -8319516753515700198
-    second: SDV_Dog_7
+      213: 7733762885907925806
+    second: RWR_Player_7
   - first:
-      213: -1956589617421100088
-    second: SDV_Dog_8
+      213: 5654175150637311665
+    second: RWR_Player_8
   - first:
-      213: 6820293773538550111
-    second: SDV_Dog_9
+      213: -881435125353502196
+    second: RWR_Player_9
   - first:
-      213: -4628378303032342284
-    second: SDV_Dog_10
+      213: -3796166960311502915
+    second: RWR_Player_10
   - first:
-      213: -556427728491355214
-    second: SDV_Dog_11
+      213: 6699154571059529453
+    second: RWR_Player_11
   - first:
-      213: 278094430604154710
-    second: SDV_Dog_12
+      213: 2492932098730440155
+    second: RWR_Player_12
   - first:
-      213: 7668576797672347012
-    second: SDV_Dog_13
+      213: 7786038238577766505
+    second: RWR_Player_13
   - first:
-      213: 6418590724403697744
-    second: SDV_Dog_14
+      213: -6106974692785132293
+    second: RWR_Player_14
   - first:
-      213: 5427333429133811737
-    second: SDV_Dog_15
+      213: -6107904247031691730
+    second: RWR_Player_15
   - first:
-      213: -3128707218578877883
-    second: SDV_Dog_16
+      213: 2017364288023958120
+    second: RWR_Player_16
   - first:
-      213: -8600677603264140876
-    second: SDV_Dog_17
+      213: -7482620333089108240
+    second: RWR_Player_17
   - first:
-      213: 1450934828293022077
-    second: SDV_Dog_18
+      213: -894772648943488560
+    second: RWR_Player_18
+  - first:
+      213: -823578999441803828
+    second: RWR_Player_19
+  - first:
+      213: 8823491327194952573
+    second: RWR_Player_20
+  - first:
+      213: -1625875174304169943
+    second: RWR_Player_21
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -167,7 +176,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SDV_Dog_0
+      name: RWR_Player_0
       rect:
         serializedVersion: 2
         x: 8
@@ -182,14 +191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a955bd388ac87acf0800000000000000
-      internalID: -241069399646448230
+      spriteID: 5d1738559d70819a0800000000000000
+      internalID: -6262246651834699307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SDV_Dog_1
+      name: RWR_Player_1
       rect:
         serializedVersion: 2
         x: 168
@@ -204,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a16e601c663b2d50800000000000000
-      internalID: 6713519507285893542
+      spriteID: 603cd9c0be2bdfc70800000000000000
+      internalID: 9006551552409584390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SDV_Dog_2
+      name: RWR_Player_2
       rect:
         serializedVersion: 2
         x: 328
@@ -226,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: efaa34ce14fdf12b0800000000000000
-      internalID: -5611521136450622722
+      spriteID: f7bd951852ae8ffb0800000000000000
+      internalID: -4613680371436233857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SDV_Dog_3
+      name: RWR_Player_3
       rect:
         serializedVersion: 2
         x: 488
@@ -248,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed1031427fca682e0800000000000000
-      internalID: -2123819996796485154
+      spriteID: 3fcacaeef55921b30800000000000000
+      internalID: 4256628837077265651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SDV_Dog_4
+      name: RWR_Player_4
       rect:
         serializedVersion: 2
         x: 4
@@ -270,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a78dafd4d547a36a0800000000000000
-      internalID: -6468729970675230598
+      spriteID: f872769440e9e30b0800000000000000
+      internalID: -5746982333229619313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SDV_Dog_5
+      name: RWR_Player_5
       rect:
         serializedVersion: 2
         x: 164
@@ -292,14 +301,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 99fd866c94cfec420800000000000000
-      internalID: 2652334624359374745
+      spriteID: 74869b27022c3fc90800000000000000
+      internalID: -7137147539832608697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SDV_Dog_6
+      name: RWR_Player_6
       rect:
         serializedVersion: 2
         x: 324
@@ -314,14 +323,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 566dd893e543a78e0800000000000000
-      internalID: -1694984730454403483
+      spriteID: d6d56750393b8fc70800000000000000
+      internalID: 9005144898960514413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SDV_Dog_7
+      name: RWR_Player_7
       rect:
         serializedVersion: 2
         x: 484
@@ -336,14 +345,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1029c367932b8c80800000000000000
-      internalID: -8319516753515700198
+      spriteID: e2b44a79e58d35b60800000000000000
+      internalID: 7733762885907925806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SDV_Dog_8
+      name: RWR_Player_8
       rect:
         serializedVersion: 2
         x: 8
@@ -358,14 +367,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8cbd5620c1cc8d4e0800000000000000
-      internalID: -1956589617421100088
+      spriteID: 1b6e397a75aa77e40800000000000000
+      internalID: 5654175150637311665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SDV_Dog_9
+      name: RWR_Player_9
       rect:
         serializedVersion: 2
         x: 168
@@ -380,14 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f51e2933d0d86ae50800000000000000
-      internalID: 6820293773538550111
+      spriteID: c0aa0cc6c6384c3f0800000000000000
+      internalID: -881435125353502196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SDV_Dog_10
+      name: RWR_Player_10
       rect:
         serializedVersion: 2
         x: 328
@@ -402,14 +411,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f8c1a1a472b4cfb0800000000000000
-      internalID: -4628378303032342284
+      spriteID: db7fe86334e415bc0800000000000000
+      internalID: -3796166960311502915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SDV_Dog_11
+      name: RWR_Player_11
       rect:
         serializedVersion: 2
         x: 488
@@ -424,14 +433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b36814ddeb2748f0800000000000000
-      internalID: -556427728491355214
+      spriteID: de60077b69d28fc50800000000000000
+      internalID: 6699154571059529453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SDV_Dog_12
+      name: RWR_Player_12
       rect:
         serializedVersion: 2
         x: 3
@@ -446,14 +455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 657dc26496dfbd300800000000000000
-      internalID: 278094430604154710
+      spriteID: bd53ff1298ca89220800000000000000
+      internalID: 2492932098730440155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SDV_Dog_13
+      name: RWR_Player_13
       rect:
         serializedVersion: 2
         x: 163
@@ -468,14 +477,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4851016b7f14c6a60800000000000000
-      internalID: 7668576797672347012
+      spriteID: 960390a96809d0c60800000000000000
+      internalID: 7786038238577766505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SDV_Dog_14
+      name: RWR_Player_14
       rect:
         serializedVersion: 2
         x: 323
@@ -490,14 +499,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05813b6b14a631950800000000000000
-      internalID: 6418590724403697744
+      spriteID: bfced308fdaaf3ba0800000000000000
+      internalID: -6106974692785132293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SDV_Dog_15
+      name: RWR_Player_15
       rect:
         serializedVersion: 2
         x: 483
@@ -512,14 +521,80 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 910af11aff2c15b40800000000000000
-      internalID: 5427333429133811737
+      spriteID: e268399c27d5c3ba0800000000000000
+      internalID: -6107904247031691730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SDV_Dog_16
+      name: RWR_Player_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 31
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8621a3aa12e1ffb10800000000000000
+      internalID: 2017364288023958120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RWR_Player_17
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 31
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fecb11a374682890800000000000000
+      internalID: -7482620333089108240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RWR_Player_18
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 31
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1fcf834012593f0800000000000000
+      internalID: -894772648943488560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RWR_Player_19
       rect:
         serializedVersion: 2
         x: 3
@@ -534,14 +609,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 542d76e7c599494d0800000000000000
-      internalID: -3128707218578877883
+      spriteID: cc5bcc5734f0294f0800000000000000
+      internalID: -823578999441803828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SDV_Dog_17
+      name: RWR_Player_20
       rect:
         serializedVersion: 2
         x: 163
@@ -556,14 +631,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b968c5c94144a880800000000000000
-      internalID: -8600677603264140876
+      spriteID: d73f13cfc96537a70800000000000000
+      internalID: 8823491327194952573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SDV_Dog_18
+      name: RWR_Player_21
       rect:
         serializedVersion: 2
         x: 323
@@ -578,8 +653,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d71e5a8f981c22410800000000000000
-      internalID: 1450934828293022077
+      spriteID: 920497aa42bbf69e0800000000000000
+      internalID: -1625875174304169943
       vertices: []
       indices: 
       edges: []
@@ -598,25 +673,28 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SDV_Dog_0: -241069399646448230
-      SDV_Dog_1: 6713519507285893542
-      SDV_Dog_10: -4628378303032342284
-      SDV_Dog_11: -556427728491355214
-      SDV_Dog_12: 278094430604154710
-      SDV_Dog_13: 7668576797672347012
-      SDV_Dog_14: 6418590724403697744
-      SDV_Dog_15: 5427333429133811737
-      SDV_Dog_16: -3128707218578877883
-      SDV_Dog_17: -8600677603264140876
-      SDV_Dog_18: 1450934828293022077
-      SDV_Dog_2: -5611521136450622722
-      SDV_Dog_3: -2123819996796485154
-      SDV_Dog_4: -6468729970675230598
-      SDV_Dog_5: 2652334624359374745
-      SDV_Dog_6: -1694984730454403483
-      SDV_Dog_7: -8319516753515700198
-      SDV_Dog_8: -1956589617421100088
-      SDV_Dog_9: 6820293773538550111
+      RWR_Player_0: -6262246651834699307
+      RWR_Player_1: 9006551552409584390
+      RWR_Player_10: -3796166960311502915
+      RWR_Player_11: 6699154571059529453
+      RWR_Player_12: 2492932098730440155
+      RWR_Player_13: 7786038238577766505
+      RWR_Player_14: -6106974692785132293
+      RWR_Player_15: -6107904247031691730
+      RWR_Player_16: 2017364288023958120
+      RWR_Player_17: -7482620333089108240
+      RWR_Player_18: -894772648943488560
+      RWR_Player_19: -823578999441803828
+      RWR_Player_2: -4613680371436233857
+      RWR_Player_20: 8823491327194952573
+      RWR_Player_21: -1625875174304169943
+      RWR_Player_3: 4256628837077265651
+      RWR_Player_4: -5746982333229619313
+      RWR_Player_5: -7137147539832608697
+      RWR_Player_6: 9005144898960514413
+      RWR_Player_7: 7733762885907925806
+      RWR_Player_8: 5654175150637311665
+      RWR_Player_9: -881435125353502196
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
