@@ -8,8 +8,11 @@ public class Player : MonoBehaviour
     public Animator animator;
     public float velocity = 2.0f;
 
+    /* --- Private Variables --- */
+    private bool _isColliding = false;
+    private bool _isMovingFlag = false;
     private Vector2 _direction;
-    private Vector2 _prevDirection;
+    private Vector2 _previousPosition;
 
     void Start()
     {
@@ -25,13 +28,45 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
-        rigidBody.MovePosition(rigidBody.position + _direction * (velocity * Time.deltaTime));
+        if (_isMovingFlag)
+        {
+            if (_isColliding)
+            {
+                rigidBody.MovePosition(_previousPosition + _direction * (velocity * Time.deltaTime));
+            }
+            
+            else
+            {
+                rigidBody.MovePosition(rigidBody.position + _direction * (velocity * Time.deltaTime));
+                _previousPosition = rigidBody.position;                
+            }
+        }
+        if (_isColliding)
+        {
+            _isColliding = true;
+        }
+        else
+        {
+            rigidBody.MovePosition(rigidBody.position + _direction * (velocity * Time.deltaTime));
+            _previousPosition = rigidBody.position;
+            _isColliding = false;
+        }
+        
     }
     
     private void UpdateDirection()
     {
         _direction.x = Input.GetAxisRaw("Horizontal");
         _direction.y = Input.GetAxisRaw("Vertical");
+
+        if (_direction is { x: 0, y: 0 })
+        {
+            _isMovingFlag = false;
+        }
+        else
+        {
+            _isMovingFlag = true;
+        }
     }
 
     private void UpdateAnimator()
@@ -39,5 +74,15 @@ public class Player : MonoBehaviour
         animator.SetFloat("Horizontal", _direction.x);
         animator.SetFloat("Vertical", _direction.y);
         animator.SetFloat("Speed", _direction.sqrMagnitude);
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        _isColliding = true;
+    }
+
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        _isColliding = false;
     }
 }
