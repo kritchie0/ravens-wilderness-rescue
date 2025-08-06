@@ -1625,9 +1625,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00462b54d6ee497b870e68c7659feb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidBody: {fileID: 1772362747}
-  animator: {fileID: 1772362746}
   velocity: 2
+  moveSpeed: 5
 --- !u!212 &1772362744
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1734,7 +1733,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_AngularDamping: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:

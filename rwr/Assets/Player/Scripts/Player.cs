@@ -1,46 +1,45 @@
+using System;
 using UnityEditor;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    /* --- Public Variables --- */
-    public Rigidbody2D rigidBody;
-    public Animator animator;
-    public float velocity = 2.0f;
+    [Header("Movment Stuff")]
+    [SerializeField] private float moveSpeed = 5f;
+    private Rigidbody2D _rb;
+    private Vector2 _moveInput;
+    private Animator _animator;
 
-    /* --- Private Variables --- */
-    private bool _isColliding = false;
-    private bool _isMovingFlag = false;
-    private Vector2 _direction;
-    private Vector2 _previousPosition;
-
-    void Start()
+    private void Awake()
     {
-        
+        Debug.Log("Player initialized");
+        _rb = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        UpdateDirection();
-        UpdateAnimator();
+
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        rigidBody.MovePosition(rigidBody.position + _direction * (velocity * Time.deltaTime));
-    }
-    
-    private void UpdateDirection()
-    {
-        _direction.x = Input.GetAxisRaw("Horizontal");
-        _direction.y = Input.GetAxisRaw("Vertical");
+        UpdateMovement();
     }
 
-    private void UpdateAnimator()
+    private void UpdateMovement()
     {
-        animator.SetFloat("Horizontal", _direction.x);
-        animator.SetFloat("Vertical", _direction.y);
-        animator.SetFloat("Speed", _direction.sqrMagnitude);
-    }
+        const string HORIZONTAL = "Horizontal";
+        const string VERTICAL = "Vertical";
+        const string SPEED = "Speed";
+        
+        _moveInput.x = Input.GetAxisRaw("Horizontal");
+        _moveInput.y = Input.GetAxisRaw("Vertical");
+        _rb.MovePosition(_rb.position + _moveInput * (moveSpeed * Time.deltaTime));
+        
+        _animator.SetFloat(HORIZONTAL, _moveInput.x);
+        _animator.SetFloat(VERTICAL, _moveInput.y);
+        _animator.SetFloat(SPEED, _moveInput.sqrMagnitude);
+   }
 }
